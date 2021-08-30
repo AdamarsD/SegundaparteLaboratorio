@@ -9,6 +9,7 @@ namespace Persona.entidades
     class ClsPersona
     {
 
+
         private String nombre;
         private String sexo;
         private int edad;
@@ -20,6 +21,7 @@ namespace Persona.entidades
         public int Edad { get => edad; set => edad = value; }
         public int Peso { get => peso; set => peso = value; }
         public int Altura { get => altura; set => altura = value; }
+    }
 
     }
 }
