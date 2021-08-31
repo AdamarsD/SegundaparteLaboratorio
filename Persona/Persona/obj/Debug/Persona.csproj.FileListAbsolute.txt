@@ -1,0 +1,2 @@
+C:\Users\Divvina Misericordia\OneDrive\Documents\GitHub\SegundaparteLaboratorio\Persona\Persona\obj\Debug\Persona.csproj.AssemblyReference.cache
+C:\Users\Divvina Misericordia\OneDrive\Documents\GitHub\SegundaparteLaboratorio\Persona\Persona\obj\Debug\Persona.csproj.CoreCompileInputs.cache
