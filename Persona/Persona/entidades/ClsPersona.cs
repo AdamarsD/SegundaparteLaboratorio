@@ -9,30 +9,49 @@ namespace Persona.entidades
     class ClsPersona
     {
 
+        private string nombre;
+        private int edad;
+        private string sexo;
+        private double peso;
+        private double altura;
 
-        persona per = new persona(0, 0);
-        public String calcularIMC()
+        public string Nombre { get => nombre; set => nombre = value; }
+        public int Edad { get => edad; set => edad = value; }
+        public string Sexo { get => sexo; set => sexo = value; }
+        public double Peso { get => peso; set => peso = value; }
+        public double Altura { get => altura; set => altura = value; }
+
+        public ClsPersona(string nombre, int edad, string sexo, double peso, double altura)
         {
-
-            double pro = per.Peso / Math.Pow(per.Altura, 2);
-
-            if (pro < 20)
-            {
-                return "Su peso es ideal";
-            }
-            if (pro > 25)
-            {
-                return "Tiene sobre peso";
-            }
-            return "";
+            this.nombre = nombre;
+            this.edad = edad;
+            this.sexo = sexo;
+            this.peso = peso;
+            this.altura = altura;
         }
-        public String esMayorDeEdad()
+
+        public ClsPersona(string nombre, int edad, string sexo)
         {
-            if (per.Edad >= 18)
-            {
-                return "Es Mayor de edad";
-            }
-            else
-                return "No es mayor de edad";
+            this.nombre = nombre;
+            this.edad = edad;
+            this.sexo = sexo;
         }
+
+        public ClsPersona(int edad, double peso, double altura)
+        {
+            this.edad = edad;
+            this.peso = peso;
+            this.altura = altura;
+        }
+
+        public ClsPersona(double peso, double altura)
+        {
+            this.peso = peso;
+            this.altura = altura;
+
+
+        }
+
+
+    }
 }
