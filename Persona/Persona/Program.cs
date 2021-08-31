@@ -13,7 +13,7 @@ namespace Persona
         NCLsPersona nclspersona = new NCLsPersona();
 
 
-     Console.WriteLineNewStruct"escriba su nombre");
+        Console.WriteLineNewStruct"escriba su nombre");
             string nombre = (Console.ReadLine());
 
 
@@ -31,11 +31,11 @@ namespace Persona
 
 
         Console.WriteLine NewStruct"Escriba su peso");
-            Double peso = Convert.ToDouble(Console.ReadLine());
+        Double peso = Convert.ToDouble(Console.ReadLine());
 
 
         Console.WriteLine NewStruct"Escriba su altura ");
-            Double altura = Convert.ToDouble(Console.ReadLine());
+        Double altura = Convert.ToDouble(Console.ReadLine());
 
         Clspersona persona = new Clspersona(nombre, edad, peso, altura);
 
